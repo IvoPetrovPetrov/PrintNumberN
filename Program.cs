@@ -11,7 +11,7 @@
                 Console.WriteLine("Please enter a number between -1000 and 999:");
                 number = int.Parse(Console.ReadLine());
             }
-            while (number < -1000.0 || number > 999.0);
+            while (number < -1000 || number > 999);
 
             for (int i = number; i <= 999; i++)
             {
